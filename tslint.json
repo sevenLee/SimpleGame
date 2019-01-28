@@ -1,0 +1,40 @@
+{
+  "rules": {
+    "class-name": true,					// Enforces PascalCased class and interface names.
+    "curly": true,						// Enforces braces for if/for/do/while statements.
+    "eofline": false, 					// Ensures the file ends with a newline.
+    "forin": true, 						// Requires a for ... in statement to be filtered with an if statement
+    // "indent": [true, "tabs"], 			// Enforces indentation with tabs or spaces.
+    "indent": [true, "spaces", 4],
+//    "max-line-length": [true, 160], 	// Requires lines to be under a certain max length.
+    "no-arg": true, 					// Disallows use of arguments.callee
+    "no-bitwise": true, 				// Disallows bitwise operators.
+    "no-construct": true, 				// Disallows access to the constructors of String, Number, and Boolean.
+    "no-debugger": true, 				// Disallows debugger statements.
+    "no-duplicate-variable": true, 		// Disallows duplicate variable declarations in the same block scope.
+    "no-empty": true, 					// Disallows empty blocks.
+    "no-eval": true, 					// Disallows eval function invocations.
+    "no-string-literal": false, 		// Disallows object access via string literals.
+    "no-trailing-whitespace": true,  	// Disallows trailing whitespace at the end of a line.
+    "no-unused-variable": false, 		// Disallows unused imports, variables, functions and private class members.
+    "no-use-before-declare": true, 		// Disallows usage of variables before their declaration.
+    "one-line": [true, 					// Requires the specified tokens to be on the same line as the expression preceding them.
+      "check-open-brace",					// checks that an open brace falls on the same line as its preceding expression.
+      "check-catch", 						// checks that catch is on the same line as the closing brace for try.
+      "check-else", 						// checks that else is on the same line as the closing brace for if.
+      "check-whitespace" 					// checks preceding whitespace for the specified tokens.
+    ],
+    "semicolon": [true, "always"], 					// Enforces consistent semicolon usage at the end of every statement.
+    "variable-name": false, 			// Checks variable names for various errors.
+    "whitespace": [true, 				// Enforces whitespace style conventions.
+      "check-branch", 						// checks branching statements (if/else/for/while) are followed by whitespace.
+      "check-decl", 						// checks that variable declarations have whitespace around the equals token.
+      "check-operator", 					// checks for whitespace around operator tokens.
+      "check-separator", 					// checks for whitespace after separator tokens (,/;).
+	    "check-type", 						// checks for whitespace before a variable type specification.
+	    "check-typecast" 						// checks for whitespace between a typecast and its target.
+    ],
+	 "quotemark": [true, "single"],
+	 "member-access": true
+  }
+}

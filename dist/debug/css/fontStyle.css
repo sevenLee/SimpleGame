@@ -1,0 +1,8 @@
+@font-face {
+	font-family: 'Futura PT';
+	src: url( '../assets/fonts/web/FuturaPT.woff' ) format( 'woff' );
+}
+@font-face {
+	font-family: 'Futura Bold PT';
+	src: url( '../assets/fonts/web/FuturaBoldPT.woff' ) format( 'woff' );
+}

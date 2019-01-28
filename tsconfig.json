@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "noImplicitThis": true,
+    "module": "commonjs",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": false
+  },
+  "exclude": [
+    "node_modules",
+    "bin",
+    "dist"
+  ],
+  "types": [
+    "pixi.js",
+    "tween.js",
+    "pixi-spine",
+    "currency-formatter",
+    "node-polyglot"
+  ]
+}
